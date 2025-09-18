@@ -5,5 +5,4 @@ description = "CCHC Assessment Debugging Q4"
 authors = [{ name = "Diya Kithani", email = "diyakithani.2003@gmail.com" }]
 readme = "README.md"
 requires-python = "<=3.11"
-dependencies = [
-]
+dependencies = [ "dash", "numpy", "pandas" ]
