@@ -709,4 +709,4 @@ def update_table(start, end, clinic, admit_type, heatmap_click, reset_click, *ar
 
 # Run the server
 if __name__ == "__main__":
-    app.run(debug=True) # dash.exceptions.ObsoleteAttributeException: app.run_server has been replaced by app.run
+    app.run(port=10030, debug=True) # dash.exceptions.ObsoleteAttributeException: app.run_server has been replaced by app.run
