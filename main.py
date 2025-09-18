@@ -553,7 +553,7 @@ app.layout = html.Div(
                     children=[
                         html.B("Patient Wait Time and Satisfactory Scores"),
                         html.Hr(),
-                        html.Div(id="wait_time_tabel", children=initialize_table()),
+                        html.Div(id="wait_time_table", children=initialize_table()),
                     ],
                 ),
             ],
